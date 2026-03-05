@@ -1,0 +1,22 @@
+{
+  "name": "triqura-cortex-frontend",
+  "version": "1.0.0",
+  "description": "Frontend web application for Triqura Cortex Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": ["triqura", "cortex", "frontend"],
+  "author": "Lemminx",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0"
+  }
+}
